@@ -1,116 +1,131 @@
-ROSA (Robotic Orchestrated Semantic Agent) bridges Large Language Models and robotic control systems.
+# ROSA – Agentic AI Framework for Robotics
+
+> Production-ready Agentic AI system that translates natural language instructions into executable ROS actions using ReAct reasoning and LLM planning.
+
+---
+
+## Overview
+
+**ROSA (Robotic Orchestrated Semantic Agent)** bridges Large Language Models and robotic control systems.
 
 It enables robots to:
 
-- Interpret natural language commands
-
-- Reason over multi-step tasks
-
-- Generate executable ROS action sequences
-
-- Adapt dynamically using feedback loops
+* Interpret natural language commands
+* Reason over multi-step tasks
+* Generate executable ROS action sequences
+* Adapt dynamically using feedback loops
 
 This framework combines:
 
-- ReAct-style reasoning
+* ReAct-style reasoning
+* LLM-based task planning
+* Structured ROS node orchestration
+* Real-time execution validation
 
-- LLM-based task planning
+---
 
-- Structured ROS node orchestration
+## Problem
 
-- Real-time execution validation
+Traditional robotic systems require:
 
-Problem
+* Hard-coded task pipelines
+* Manual scripting for new behaviors
+* Limited adaptability to ambiguous instructions
 
-- Robotic systems traditionally require:
-  
-- Hard-coded task pipelines
-  
-- Manual scripting for new behaviors
-  
-- Limited adaptability to ambiguous instructions
+ROSA removes this constraint by enabling:
 
-ROSA removes this constraint by allowing natural language → structured robotic execution.
+**Natural language → Structured robotic execution**
 
-Architecture
+---
 
+## Architecture
+
+```
 User Prompt
-↓
+    ↓
 LLM Planner (ReAct Reasoning)
-↓
+    ↓
 Task Decomposition Engine
-↓
+    ↓
 ROS Action Generator
-↓
+    ↓
 Execution Monitor + Feedback Loop
+```
 
-Key Components:
+### Core Components
 
-- Planner Module (LLM-driven reasoning)
+* **Planner Module** – LLM-driven reasoning engine
+* **Action Mapping Layer** – Converts LLM output into ROS commands
+* **Execution Validator** – Confirms action success/failure
+* **Memory Store** – Maintains contextual state
 
-- Action Mapping Layer (LLM → ROS commands)
+---
 
-- Execution Validator
+## Tech Stack
 
-- Memory/Context Store
+* Python
+* ROS
+* PyTorch
+* LLaMA-2 (local inference)
+* ReAct prompting framework
 
-- Tech Stack
+---
 
-- Python
+## Key Capabilities
 
-- ROS
+* ✔ Multi-step task planning
+* ✔ Error recovery via feedback loops
+* ✔ Natural language → robotic actuation
+* ✔ Modular plug-and-play architecture
 
-- PyTorch
+---
 
-- LLaMA-2 (local inference)
+## Performance
 
-- ReAct prompting framework
+* ~70% reduction in manual scripting
+* Supports dynamic multi-step action chains
+* Validated in simulated robotic environments
 
-Key Capabilities
+*(Add latency, inference time, or FPS metrics if available.)*
 
-- Multi-step task planning
-- Error recovery via feedback loops
-- Natural language to robotic actuation
-- Modular plug-and-play architecture
+---
 
-Performance
+## How to Run
 
-- Reduced manual scripting by ~70%
-
-- Supports multi-step action chains
-
-- Tested on simulated robotic environments
-
-- (Add metrics like latency, response time, FPS if available.)
-
-How to Run
-
-- git clone https://github.com/asundar0128/rosa.git
-- cd rosa
-- pip install -r requirements.txt
-- python main.py
+```bash
+git clone https://github.com/asundar0128/Agentic-AI-Framework-for-Robotics-ROSA-.git
+cd Agentic-AI-Framework-for-Robotics-ROSA-
+pip install -r requirements.txt
+python main.py
+```
 
 Ensure ROS is running before execution.
 
-Project Structure
+---
 
+## Project Structure
+
+```
 rosa/
 │── planner/
 │── action_mapper/
 │── executor/
 │── memory/
 │── main.py
+```
 
-Future Improvements
+---
 
-- Multi-robot orchestration
+## Future Improvements
 
-- Real-world hardware validation
+* Multi-robot orchestration
+* Real-world hardware validation
+* Tool-use via structured function calling
+* Edge deployment optimization
 
-- Tool-use via function calling
+---
 
-- Edge deployment optimization
+## Author
 
-Author
+Developed to explore production-grade Agentic AI systems for robotics integration.
 
-Built to explore production-ready Agentic AI systems for robotics integration.
