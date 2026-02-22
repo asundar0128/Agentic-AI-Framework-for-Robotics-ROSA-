@@ -85,7 +85,7 @@ Performance
 
 How to Run
 
-- git clone https://github.com/your-username/rosa.git
+- git clone https://github.com/asundar0128/rosa.git
 - cd rosa
 - pip install -r requirements.txt
 - python main.py
