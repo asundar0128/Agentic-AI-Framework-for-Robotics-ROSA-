@@ -82,14 +82,7 @@ docker compose up --build -d
 
 ## System Architecture
 
-![Robotics Framework](https://github.com/user-attachments/assets/21caf430-1da4-4725-9a5b-d5171045f50c)
-
-## Core Components
-
-- Planner Module – LLM-driven reasoning engine
-- Action Mapping Layer – Converts LLM output into ROS commands
-- Execution Validator – Confirms action success/failure
-- Memory Store – Maintains contextual state
+![Robotics Framework](https://github.com/user-attachments/assets/7dce2fa0-842f-4a6b-bf76-0217755fd5d6)
 
 ## Tech Stack
 
@@ -104,7 +97,6 @@ docker compose up --build -d
 - ~70% reduction in manual scripting
 - Supports dynamic multi-step action chains
 - Validated in simulated robotic environments
-- (Optional: Add latency, inference time, or FPS metrics)
 
 ## Project Structure
 
@@ -117,10 +109,9 @@ rosa/
 
 ## Future Improvements
 
-- Multi-robot orchestration
+- Multi-robot orchestration for collaborative task execution
 - Real-world hardware validation
 - Tool-use via structured function calling
-- Edge deployment optimization
 
 ## Why This Project Matters
 
