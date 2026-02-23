@@ -14,8 +14,6 @@ ROSA (Robotic Orchestrated Semantic Agent) connects Large Language Models with r
 
 ROSA demonstrates how Agentic AI can operate in robotics environments with dynamic planning and feedback loops.
 
-<img width="2541" height="1252" alt="GPT4o-Project-ROSA" src="https://github.com/user-attachments/assets/3b70b762-cde4-48d0-bb2e-dde016cd3098" />
-
 ## What It Does
 
 ROSA converts a high-level instruction like:
