@@ -28,8 +28,6 @@ Into actionable steps:
 4. Navigate to table  
 5. Release object  
 
-![ROSA Terminal Output](https://github.com/user-attachments/assets/cb031bd5-35d4-452c-a3b2-e967c5d5b31b)
-
 ## Human-Agent Interaction
 
 ROSA is designed to be conversational. Unlike traditional robotics which require rigid code, ROSA handles:   
@@ -110,7 +108,6 @@ docker compose up --build -d
 - Validated in simulated robotic environments
 
 <img width="2559" height="1388" alt="Screenshot 2025-02-09 222149" src="https://github.com/user-attachments/assets/b2f3fc20-8549-4b37-9995-7b88a7817a54" />
-
 
 ## Project Structure
 
