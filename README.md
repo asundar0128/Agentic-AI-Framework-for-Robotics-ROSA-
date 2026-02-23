@@ -12,7 +12,7 @@ ROSA (Robotic Orchestrated Semantic Agent) connects Large Language Models with r
 - Structured ROS action generation
 - Real-time execution validation and recovery
 
-![Dynamic Planning and Feedback Loop - ROSA](https://github.com/user-attachments/assets/b0b6c81b-7aaf-4e4d-bec9-514fd73a0952)
+<img width="983" height="441" alt="ROSA_Architecture" src="https://github.com/user-attachments/assets/bb4e7e1f-1d0d-43b2-b271-8fa555ed62b8" />
 
 ROSA demonstrates how Agentic AI can operate in robotics environments with dynamic planning and feedback loops.
 
@@ -22,7 +22,6 @@ ROSA converts a high-level instruction like:
 
 "Pick up the red object and place it on the table"
 
-
 Into actionable steps:
 
 1. Locate red object  
@@ -31,7 +30,19 @@ Into actionable steps:
 4. Navigate to table  
 5. Release object  
 
+## Human-Agent Interaction
+
+ROSA is designed to be conversational. Unlike traditional robotics which require rigid code, ROSA handles:   
+
+Clarification Dialogues: If a command is ambiguous (e.g., "Pick up the box" when there are two boxes), the agent will ask the user for clarification before acting.
+
+Status Updates: The agent provides natural language feedback on its "Reasoning" process, explaining why it is choosing a specific ROS action.
+
+Human-in-the-loop (HITL): Users can interrupt or modify plans mid-execution through the dialogue interface.
+
 Then translates this into executable ROS action calls.
+
+<img width="562" height="644" alt="rosa" src="https://github.com/user-attachments/assets/136fde47-96d1-4259-84be-05c6fdeaff43" />
 
 ## Environment Variables & Setup
 
