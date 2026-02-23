@@ -28,7 +28,7 @@ Into actionable steps:
 4. Navigate to table  
 5. Release object  
 
-<img width="2541" height="1252" alt="Screenshot 2025-05-06 233332" src="https://github.com/user-attachments/assets/676ea8da-866f-41e8-a899-12729927c1f4" />
+![ROSA Architecture](https://github.com/user-attachments/assets/136fde47-96d1-4259-84be-05c6fdeaff43)
 
 ## Human-Agent Interaction
 
