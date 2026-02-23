@@ -28,7 +28,7 @@ Into actionable steps:
 4. Navigate to table  
 5. Release object  
 
-![ROSA Architecture](https://github.com/user-attachments/assets/136fde47-96d1-4259-84be-05c6fdeaff43)
+![ROSA Terminal Output](https://github.com/user-attachments/assets/cb031bd5-35d4-452c-a3b2-e967c5d5b31b)
 
 ## Human-Agent Interaction
 
