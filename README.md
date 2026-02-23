@@ -12,8 +12,6 @@ ROSA (Robotic Orchestrated Semantic Agent) connects Large Language Models with r
 - Structured ROS action generation
 - Real-time execution validation and recovery
 
-<img width="983" height="441" alt="ROSA_Architecture" src="https://github.com/user-attachments/assets/bb4e7e1f-1d0d-43b2-b271-8fa555ed62b8" />
-
 ROSA demonstrates how Agentic AI can operate in robotics environments with dynamic planning and feedback loops.
 
 ## What It Does
@@ -29,6 +27,8 @@ Into actionable steps:
 3. Execute grasp action  
 4. Navigate to table  
 5. Release object  
+
+<img width="2541" height="1252" alt="Screenshot 2025-05-06 233332" src="https://github.com/user-attachments/assets/676ea8da-866f-41e8-a899-12729927c1f4" />
 
 ## Human-Agent Interaction
 
@@ -93,7 +93,7 @@ docker compose up --build -d
 
 ## System Architecture
 
-![Robotics Framework](https://github.com/user-attachments/assets/7dce2fa0-842f-4a6b-bf76-0217755fd5d6)
+<img width="983" height="441" alt="ROSA_Architecture" src="https://github.com/user-attachments/assets/bb4e7e1f-1d0d-43b2-b271-8fa555ed62b8" />
 
 ## Tech Stack
 
@@ -108,6 +108,9 @@ docker compose up --build -d
 - ~70% reduction in manual scripting
 - Supports dynamic multi-step action chains
 - Validated in simulated robotic environments
+
+<img width="2559" height="1388" alt="Screenshot 2025-02-09 222149" src="https://github.com/user-attachments/assets/b2f3fc20-8549-4b37-9995-7b88a7817a54" />
+
 
 ## Project Structure
 
@@ -132,6 +135,8 @@ ROSA demonstrates:
 - LLM reasoning integrated with control systems
 - Autonomous planning and execution
 - Production-style modular design
+
+<img width="389" height="942" alt="Screenshot 2025-02-09 183549" src="https://github.com/user-attachments/assets/3c19731f-e1ac-46d0-9d62-87fbf5742d71" />
 
 This project showcases applied AI systems engineering beyond model training.
 
