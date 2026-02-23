@@ -63,6 +63,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 # Clone the repository
 git clone https://github.com/asundar0128/Agentic-AI-Framework-for-Robotics-ROSA-.git
+
 cd Agentic-AI-Framework-for-Robotics-ROSA-
 
 # Configure environment
