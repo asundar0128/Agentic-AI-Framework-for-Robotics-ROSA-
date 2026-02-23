@@ -1,6 +1,3 @@
-![ROS](https://github.com/user-attachments/assets/0f0e5be9-bd5b-4233-a70b-c4c599827662)
-![Diagram](https://github.com/user-attachments/assets/441ea60b-9fd5-43d5-8b38-ce3496a55d89)
-
 # ROSA – Agentic AI Framework for Robotics
 
 > Production-ready Agentic AI system that translates natural language instructions into executable ROS actions using ReAct reasoning and LLM planning.
@@ -82,8 +79,6 @@ docker compose up --build -d
 - Modular, plug-and-play design
 
 ## System Architecture
-
-<img width="1024" height="1536" alt="ROSA Architecture Diagram" src="https://github.com/user-attachments/assets/537ac148-be96-4101-9112-1e8a29819614" />
 
 ## Core Components
 
