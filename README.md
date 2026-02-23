@@ -42,7 +42,7 @@ Human-in-the-loop (HITL): Users can interrupt or modify plans mid-execution thro
 
 Then translates this into executable ROS action calls.
 
-<img width="562" height="644" alt="rosa" src="https://github.com/user-attachments/assets/136fde47-96d1-4259-84be-05c6fdeaff43" />
+![](https://github.com/user-attachments/assets/136fde47-96d1-4259-84be-05c6fdeaff43)
 
 ## Environment Variables & Setup
 
