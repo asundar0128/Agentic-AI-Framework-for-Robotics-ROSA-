@@ -12,6 +12,8 @@ ROSA (Robotic Orchestrated Semantic Agent) connects Large Language Models with r
 - Structured ROS action generation
 - Real-time execution validation and recovery
 
+![Dynamic Planning and Feedback Loop - ROSA](https://github.com/user-attachments/assets/b0b6c81b-7aaf-4e4d-bec9-514fd73a0952)
+
 ROSA demonstrates how Agentic AI can operate in robotics environments with dynamic planning and feedback loops.
 
 ## What It Does
@@ -79,6 +81,8 @@ docker compose up --build -d
 - Modular, plug-and-play design
 
 ## System Architecture
+
+![Robotics Framework](https://github.com/user-attachments/assets/21caf430-1da4-4725-9a5b-d5171045f50c)
 
 ## Core Components
 
